@@ -6,7 +6,8 @@ public class JwtUtils {
 
     public static void main(String[] args) {
 
-       // JWT.create().
+
+       JWT.create().withHeader();
 
     }
 
