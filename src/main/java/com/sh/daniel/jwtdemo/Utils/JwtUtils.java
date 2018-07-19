@@ -1,16 +1,13 @@
 package com.sh.daniel.jwtdemo.Utils;
 
-
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-
 
 public class JwtUtils {
     /** 密钥   */
